@@ -18,7 +18,7 @@ const ordenes = require('./routes/ordenes')
 //________________________________________________VARIABLES_____________________________________________________
 
 const app = express();
-const uri=`mongodb+srv://${process.env.USER}:${process.env.PASSWORD}@cluster0.busc9.mongodb.net/${process.env.DBNAME}?retryWrites=true&w=majority`
+const uri=`mongodb+srv://admin:snkrs@cluster0.busc9.mongodb.net/bazar`
 
 const options = {
     useNewUrlParser: true,
